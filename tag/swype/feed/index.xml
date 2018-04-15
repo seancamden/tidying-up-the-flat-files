@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Swype &#8211; Sean Camden</title>
+	<atom:link href="/tag/swype/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Handheld Input With Swype</title>
+		<link>/2010/06/23/handheld-input-with-swype/</link>
+		<comments>/2010/06/23/handheld-input-with-swype/#respond</comments>
+		<pubDate>Wed, 23 Jun 2010 15:51:39 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Mobile Computing]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[handheld]]></category>
+		<category><![CDATA[input device]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Swype]]></category>
+
+		<guid isPermaLink="false">/?p=217</guid>
+		<description><![CDATA[I just installed Swype on my Android phone, and it works pretty well. Fitaly was my last favorite handheld input method, but the stylus has gone the way of the 8-Track. This method is fast and intuitive; it does a good job of guessing what word you want based on your finger&#8217;s scribbling across the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2010/06/oie_Screen_shot_2010_06_23_at_8.33.19_AM.png" alt="" title="swype logo" width="157" height="54" class="alignnone size-full wp-image-218" /><br />
+I just installed <a href="http://www.swypeinc.com/">Swype</a> on my Android phone, and it works pretty well. <a href="http://www.fitaly.com/">Fitaly</a> was my last favorite handheld input method, but the stylus has gone the way of the <a href="http://en.wikipedia.org/wiki/8-track_tape">8-Track</a>. This method is fast and intuitive; it does a good job of guessing what word you want based on your finger&#8217;s scribbling across the (slightly larger than the default Android) keyboard. It&#8217;s not perfect; sometimes your finger will be hiding the keys you want to slide over, forcing you to pause and misspell. But given how awful most handheld input options are, it&#8217;s a fine improvement.<br />
+<img src="/wp-content/uploads/2010/06/Screen-shot-2010-06-23-at-8.38.28-AM.png" alt="" title="Android warning screen" width="245" height="404" class="alignleft size-full wp-image-220" /><br />
+<a href="http://beta.swype.com/android/welcome/detailed/">This warning screen</a> is a bit unnerving, particularly considering this recent article at CNet <a href="http://news.cnet.com/8301-27080_3-20008518-245.html">Report: A fifth of Android apps expose private data</a> (via <a href="http://yro.slashdot.org/article.pl?sid=10/06/23/1429249">Slashdot</a>). So maybe I won&#8217;t use Swype to enter any passwords. But its improved functionality is mostly lost on passwords anyway.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/06/23/handheld-input-with-swype/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

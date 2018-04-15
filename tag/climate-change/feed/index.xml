@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>climate change &#8211; Sean Camden</title>
+	<atom:link href="/tag/climate-change/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Sustainable Growth is an Oxymoron</title>
+		<link>/2010/11/25/sustainable-growth-is-an-oxymoron/</link>
+		<comments>/2010/11/25/sustainable-growth-is-an-oxymoron/#respond</comments>
+		<pubDate>Thu, 25 Nov 2010 18:42:50 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Environmental]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[co2]]></category>
+		<category><![CDATA[environment]]></category>
+		<category><![CDATA[global warming]]></category>
+		<category><![CDATA[Rudy M. Baum]]></category>
+
+		<guid isPermaLink="false">/?p=269</guid>
+		<description><![CDATA[One of the most unnerving aspects of global climate change for the human psyche to absorb is that it drives home with absolute finality the notion that Earth is finite. I know, that sounds obvious, but people have never behaved as if Earth were finite. They have behaved as if Earth and its resources, the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<blockquote><p><a href="/wp-content/uploads/2010/11/8845gov3breath250_live-2.gif"><img src="/wp-content/uploads/2010/11/8845gov3breath250_live-2.gif" alt="The Keeling Curve shows that both humans and plants affect atmospheric CO2 concentration." title="The Keeling Curve shows that both humans and plants affect atmospheric CO2 concentration." width="250" height="255" class="alignnone size-full wp-image-270" /></a></p>
+<p>One of the most unnerving aspects of global climate change for the human psyche to absorb is that it drives home with absolute finality the notion that Earth is finite. I know, that sounds obvious, but people have never behaved as if Earth were finite. They have behaved as if Earth and its resources, the environment itself, were infinite.</p>
+<p>The Keeling Curve doesn’t demonstrate that climate is changing; it simply provides the evidence that supports the most obvious mechanism to account for the global warming that has also been measured. It does show, in two very concrete ways, that Earth’s atmosphere is finite and can be impacted by the biosphere. Humans account for the increase over time; plants account for the annual periodicity.</p></blockquote>
+<p><a href="http://pubs.acs.org/cen/government/88/8845gov3.html">Read more at Chemical &amp; Engineering News</a> (via <a href="http://www.metafilter.com/">metafilter.com</a>)</p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/11/25/sustainable-growth-is-an-oxymoron/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
