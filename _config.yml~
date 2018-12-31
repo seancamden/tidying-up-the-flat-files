@@ -1,0 +1,8 @@
+url: http://seancamden.com
+name: Sean Camden
+description: Live from the Valley of No Regrets
+
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: <img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=96&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=192&amp;d=mm&amp;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' /> 
