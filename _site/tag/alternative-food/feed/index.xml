@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>alternative food &#8211; Sean Camden</title>
+	<atom:link href="/tag/alternative-food/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Mmmm&#8230; Algae</title>
+		<link>/2010/09/12/mmmm-algae/</link>
+		<comments>/2010/09/12/mmmm-algae/#respond</comments>
+		<pubDate>Sun, 12 Sep 2010 23:39:55 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Errata]]></category>
+		<category><![CDATA[Random Blah Blah]]></category>
+		<category><![CDATA[algae]]></category>
+		<category><![CDATA[alternative food]]></category>
+		<category><![CDATA[bio-fuel]]></category>
+		<category><![CDATA[diy]]></category>
+
+		<guid isPermaLink="false">/?p=248</guid>
+		<description><![CDATA[What&#8217;s that slimy green stuff in your window? Dinner.]]></description>
+				<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2010/09/algae@home.jpg" alt="algae being grown in a window tank" title="algae@home" width="500" height="375" class="alignnone size-full wp-image-249" srcset="/wp-content/uploads/2010/09/algae@home.jpg 500w, /wp-content/uploads/2010/09/algae@home-300x225.jpg 300w" sizes="(max-width: 500px) 100vw, 500px" /></p>
+<p>What&#8217;s that slimy green stuff in your window? </p>
+<p><a href="http://shareable.net/blog/is-algae-the-shareable-answer-to-food-energy-crises">Dinner.</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/09/12/mmmm-algae/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

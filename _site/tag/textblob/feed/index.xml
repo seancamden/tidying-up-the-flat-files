@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>TextBlob &#8211; Sean Camden</title>
+	<atom:link href="/tag/textblob/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Playing with TextBlob</title>
+		<link>/2014/01/22/playing-with-textblob/</link>
+		<comments>/2014/01/22/playing-with-textblob/#respond</comments>
+		<pubDate>Thu, 23 Jan 2014 05:57:55 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Regular Expressions]]></category>
+		<category><![CDATA[TextBlob]]></category>
+
+		<guid isPermaLink="false">/?p=542</guid>
+		<description><![CDATA[TextBlob is a fun Python library that allows one to parse blocks of text in neat ways. To use it, all you need is a computer with Python on it. I&#8217;m using Linux Mint with Python 2.7.3. Installation of TextBlob is covered pretty well on Steve Loria&#8217;s TextBlob page. To begin I open my Python [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>TextBlob is a fun Python library that allows one to parse blocks of text in neat ways.</p>
+<p>To use it, all you need is a computer with <a href="http://www.python.org/">Python</a> on it. I&#8217;m using <a href="http://linuxmint.com/">Linux Mint</a> with Python 2.7.3. Installation of TextBlob is covered pretty well on <a href="http://textblob.readthedocs.org/en/latest/">Steve Loria&#8217;s TextBlob page</a>.</p>
+<p>To begin I open my Python interpreter and import TextBlob.<br />
+<code>>>> from textblob import TextBlob</code></p>
+<p>Then I load my text. I&#8217;m using a chunk of <a href="http://www.gutenberg.org/ebooks/28054">The Brothers Karamazov</a>.<br />
+<code>>>> with open(r"/home/sean/Documents/text-blobs/the-brothers-karamazov/brothers-044") as infile:<br />
+... &nbsp;&nbsp;data = infile.read()<br />
+... &nbsp;&nbsp;myblob = TextBlob(data)<br />
+...<br />
+</code></p>
+<p>Now I have a TextBlob object named &#8220;myblob&#8221; and I can do fun stuff with it. For instance, I can loop through it and pull out all the adjectives.<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if key == "JJ":<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+JJ back<br />
+JJ back-way<br />
+JJ black<br />
+JJ certain<br />
+JJ civil<br />
+JJ clear<br />
+--and so on...<br />
+</code></p>
+<p>By setting up my <code>for</code> loop with the <code>sorted()</code> and <code>set()</code> methods, the output is alphabetized and will contain no duplicates.</p>
+<p>But suppose I only want to see the adjectives that are five characters long. Then I use Python&#8217;s <code>len()</code> method. Like so:<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if key == "JJ" and len(value) == 5:<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+JJ black<br />
+JJ civil<br />
+JJ clear<br />
+JJ equal<br />
+JJ first<br />
+--and so on...<br />
+</code></p>
+<p>I can sort for verbs, too; in fact, any part of speech listed in the <a href="http://www.clips.ua.ac.be/pages/mbsp-tags">Penn Treebank II tag set</a> will work.</p>
+<p>The Penn Treebank code for gerunds is VBG. But sometimes I want all the words that end in &#8220;ing&#8221; even if it&#8217;s not a gerund. In that case, I use Python&#8217;s string methods instead. Like so:<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if value[-3:] == "ing":<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+VBG according<br />
+NN anything<br />
+VBG behaving<br />
+VBG bringing<br />
+--and so on...<br />
+</code></p>
+<p>Using Python&#8217;s handy string methods I can easily test for a word that begins with a particular letter, too. Here I&#8217;ll throw in the <code>lower()</code> method to match regardless of case:<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if value[0].lower() == "a":<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+DT A<br />
+IN Among<br />
+NNP April<br />
+IN At<br />
+DT a<br />
+IN about<br />
+VBG according<br />
+VBN accustomed<br />
+--and so on...<br />
+</code></p>
+<p>But what if I want to match all the words that start with vowels? Well, I think I&#8217;m going to need a <a href="http://www.regular-expressions.info/">regular expression</a> to do that. (I love regular expressions.)</p>
+<p>First I&#8217;ll import Python&#8217;s regex library and then create my regular expression.<br />
+<code>>>> import re<br />
+>>> reg = re.compile('^[aeiou]\w*', re.IGNORECASE)<br />
+</code></p>
+<p>As you can see, I&#8217;m looking for any word that begins &#8220;<code>^</code>&#8221; with a vowel &#8220;<code>[aeiou]</code>&#8221; and is followed by zero or more &#8220;<code>*</code>&#8221; alphanumeric characters &#8220;<code>\w</code>&#8221; and I want to ignore case. Then I just use another <code>for</code> loop, only this time with my new regex. Like so:<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if reg.match(value):<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+DT A<br />
+IN Among<br />
+NNP April<br />
+IN At<br />
+DT Every<br />
+IN If<br />
+IN In<br />
+PRP It<br />
+IN Of<br />
+DT a<br />
+IN about<br />
+--and so on...<br />
+</code></p>
+<p>All the base form verbs that start with a vowel:<br />
+<code>>>> for value,key in sorted(set(myblob.tags)):<br />
+... &nbsp;&nbsp;if key == "VB" and reg.match(value):<br />
+... &nbsp;&nbsp;&nbsp;&nbsp;print key,value<br />
+...<br />
+VB act<br />
+VB entertain<br />
+VB estrange<br />
+VB in<br />
+VB into<br />
+</code></p>
+<p>Pretty cool, right?</p>
+]]></content:encoded>
+			<wfw:commentRss>/2014/01/22/playing-with-textblob/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

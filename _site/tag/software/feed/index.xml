@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>software &#8211; Sean Camden</title>
+	<atom:link href="/tag/software/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Good Games, Pay What You Want</title>
+		<link>/2010/05/07/good-games-pay-what-you-want/</link>
+		<pubDate>Fri, 07 May 2010 17:41:57 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[software]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=149</guid>
+		<description><![CDATA[http://www.wolfire.com/humble/ World of Goo alone is worth money.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.wolfire.com/humble">http://www.wolfire.com/humble/</a></p>
+<p>World of Goo alone is worth money.</p>
+]]></content:encoded>
+			</item>
+	</channel>
+</rss>

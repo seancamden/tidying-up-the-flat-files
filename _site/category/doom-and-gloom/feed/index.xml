@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Doom and Gloom &#8211; Sean Camden</title>
+	<atom:link href="/category/doom-and-gloom/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Don&#8217;t Eat All the Fish</title>
+		<link>/2011/02/06/dont-eat-all-the-fish/</link>
+		<comments>/2011/02/06/dont-eat-all-the-fish/#respond</comments>
+		<pubDate>Sun, 06 Feb 2011 21:35:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Doom and Gloom]]></category>
+		<category><![CDATA[Environmental]]></category>
+
+		<guid isPermaLink="false">/?p=328</guid>
+		<description><![CDATA[So delicious. It would be a shame to have to explain to our children that we ate them all. San Francisco Magazine: The new school of fish]]></description>
+				<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2011/02/fish.gif"><img src="/wp-content/uploads/2011/02/fish-137x300.gif" alt="" title="fish" width="137" height="300" class="alignnone size-medium wp-image-330" srcset="/wp-content/uploads/2011/02/fish-137x300.gif 137w, /wp-content/uploads/2011/02/fish.gif 340w" sizes="(max-width: 137px) 100vw, 137px" /></a><br />
+So delicious. It would be a shame to have to explain to our children that we ate them all.</p>
+<p><a href="http://www.sanfranmag.com/story/the-new-school-of-fish">San Francisco Magazine: The new school of fish</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2011/02/06/dont-eat-all-the-fish/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
