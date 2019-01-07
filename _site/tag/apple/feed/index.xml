@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>apple &#8211; Sean Camden</title>
+	<atom:link href="/tag/apple/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Apple 1 Sold at Auction</title>
+		<link>/2010/11/24/apple-1-sold-at-auction/</link>
+		<comments>/2010/11/24/apple-1-sold-at-auction/#respond</comments>
+		<pubDate>Wed, 24 Nov 2010 18:11:29 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bargains]]></category>
+		<category><![CDATA[computers]]></category>
+
+		<guid isPermaLink="false">/?p=263</guid>
+		<description><![CDATA[Apple computer sells for $210,700 In a time when most personal computers were sold as self-assembly kits, the Apple-1 broke new ground as the first personal computer sold with a fully assembled motherboard. Fellow Apple co-founder Steve Wozniak, who attended the auction in London, threw in an autographed letter with the sale. Wozniak said he [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Apple computer sells for $210,700<br />
+<div id="attachment_264" style="width: 434px" class="wp-caption alignnone"><a href="http://news.cnet.com/8301-13579_3-20023772-37.html"><img src="/wp-content/uploads/2010/11/ap1.jpg" alt="Apple 1 sold at Christy&#039;s Auction House" title="Apple 1" width="424" height="318" class="size-full wp-image-264" srcset="/wp-content/uploads/2010/11/ap1.jpg 424w, /wp-content/uploads/2010/11/ap1-300x224.jpg 300w" sizes="(max-width: 424px) 100vw, 424px" /></a><p class="wp-caption-text">A bargain at $210k</p></div></p>
+<blockquote><p>
+In a time when most personal computers were sold as self-assembly kits, the Apple-1 broke new ground as the first personal computer sold with a fully assembled motherboard.</p>
+<p>Fellow Apple co-founder Steve Wozniak, who attended the auction in London, threw in an autographed letter with the sale. Wozniak said he was proud to have his work auctioned alongside such technologically notables as an Enigma, the World War II German code-making machine, and documents from British mathematician Alan Turing, a pioneer of modern computing.</p>
+<p>&#8220;Today my heart went out as I got to see things auctioned off like the Turing documents and the Enigma machine&#8211;and the Apple I,&#8221; Wozniak reportedly told journalists after the auction. &#8220;It really was an important step, (even though) I didn&#8217;t feel that way when I designed it.&#8221;</p>
+</blockquote>
+<p>Read more: <a href="http://news.cnet.com/8301-13579_3-20023772-37.html#ixzz16DzVBwv1">http://news.cnet.com/8301-13579_3-20023772-37.html#ixzz16DzVBwv1</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/11/24/apple-1-sold-at-auction/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

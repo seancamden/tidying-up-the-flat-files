@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sony BDP-S360 Firmware Update 007 wrecked my player | Sean Camden</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="/xmlrpc.php">
+<link rel="shortcut icon" href=""/>
+<link rel="alternate" type="application/rss+xml" title="Sean Camden &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sean Camden &raquo; Comments Feed" href="/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Sean Camden &raquo; Sony BDP-S360 Firmware Update 007 wrecked my player Comments Feed" href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.7"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='SocializeThis-css'  href='/wp-content/plugins/socialize-this/st.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='WriterStrap-style-css'  href='/wp-content/themes/writerstrap/style.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='WriterStrap-bootstrap-css'  href='/wp-content/themes/writerstrap/includes/resources/bootstrap/css/bootstrap.min.css?ver=4.5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='WriterStrap-glyphicons-css'  href='/wp-content/themes/writerstrap/includes/resources/glyphicons/css/bootstrap-glyphicons.css?ver=4.5.7' type='text/css' media='all' />
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=1.4+'></script>
+<script type='text/javascript' src='/wp-content/plugins/sexycycle-for-wordpress/inc/jquery.easing-packed.js?ver=1.3'></script>
+<script type='text/javascript' src='/wp-content/plugins/sexycycle-for-wordpress/inc/jquery.sexyCycle-packed.js?ver=0.3'></script>
+<script type='text/javascript' src='/wp-content/themes/writerstrap/includes/resources/bootstrap/js/bootstrap.min.js?ver=4.5.7'></script>
+<script type='text/javascript' src='/wp-content/themes/writerstrap/includes/js/bootstrap-wp.js?ver=4.5.7'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Exploring MythTV' href='/2009/10/03/exploring-mythtv/' />
+<link rel='next' title='Sony eSupport Repair Blu-ray Player BDP-S360, Part 1' href='/2009/11/05/sony-esupport-repair-blu-ray-player-bdp-s360-part-1/' />
+<meta name="generator" content="WordPress 4.5.7" />
+<link rel="canonical" href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/" />
+<link rel='shortlink' href='/?p=50' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=http%3A%2F%2F%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F&#038;format=xml" />
+<link rel="stylesheet" href="/wp-content/plugins/sexycycle-for-wordpress/inc/sexyCycle.css" type="text/css" media="screen" />
+</head>
+<body class="single single-post postid-50 single-format-standard">
+	 
+ 
+<style type="text/css">
+a {
+	color: #000000;
+}
+
+	.navbar-brand {
+	background: #000000;
+	}
+	.navbar-brand:hover {
+	background: #000000 !important;
+	}
+	.dropdown-menu>li>a:hover {
+	background: #000000 !important;
+   }
+   #masthead {
+	background-color: #000000;	
+}
+.pull-right ul.dropdown-menu input[type=text], #searchform input[type=text]{
+	
+	border: 2px solid #000000 !important;
+
+}
+footer.entry-meta a {
+	color: #000000; 
+}
+.sidebar  .widget  a {
+	color: #000000;
+}
+.page-header .entry-meta a {
+	color: #000000; 
+}
+
+.main-content-inner a{
+	color: #000000;
+}
+.comment-reply-link, #commentsubmit{
+	background: #000000 !important;
+}
+.post-navigation a:hover {
+	background: #000000;
+}
+	.navigation li a,
+	.navigation li a:hover,
+	.navigation li.disabled {
+	background-color: #000000;
+}
+
+.pull-right:hover a {
+	color: #000;
+	background-color: #000000 !important;
+	
+}
+.pull-right a  {
+	background-color: #000000 !important;
+}
+#primery-footer {
+	background-color: #000000 !important;
+}
+</style>
+
+	
+	<nav class="navbar navbar-default">		
+	<div class="container">
+		<div class="row">
+			<div class="site-navigation-inner col-12">
+				<div class="navbar">
+				    <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+				
+				    <!-- Your site title as branding in the menu -->
+				    <a class="navbar-brand" href="/" title="Sean Camden" rel="home">
+					Sean Camden					</a>
+				    
+					<ul class="nav pull-right" style="display:none;">
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li>
+						  </li>
+                          <form id="searchform" action="/" method="get">
+<input id="s" name="s" size="20" type="text" value="" x-webkit-speech speech onwebkitspeechchange="this.form.submit();" placeholder="Serach..." />
+</form>                        </ul>
+                      </li>
+                    </ul>
+					
+				    <!-- The WordPress Menu goes here -->
+				       				
+				
+				</div><!-- .navbar -->
+			</div>
+		</div>
+	</div><!-- .container -->
+</nav><!-- .site-navigation -->
+	
+	
+<header id="masthead" class="site-header" role="banner">
+	<div class="container">
+				
+				
+		<h1>Live from the Valley of No Regrets</h1>
+				<div class="clear"></div>
+		</div>
+</header><!-- #masthead -->
+
+<div class="main-content">	
+	<div class="container" id="content">
+		<div class="row">
+			<div class="main-content-inner col-12 col-lg-8">
+
+
+	
+		
+<article id="post-50" class="post-50 post type-post status-publish format-standard hentry category-geek-centric category-home-theater">
+	
+	<div class="col-2 left-meta-single">
+	<a href="/author/admin/">
+	<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=96&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=192&amp;d=mm&amp;r=g 2x' class='avatar avatar-96 photo' height='96' width='96' />	</a>
+</div>
+	
+<div class="col-10">
+	<header class="page-header">
+		<h1 class="page-title">Sony BDP-S360 Firmware Update 007 wrecked my player</h1>
+
+		<div class="entry-meta">
+			<span class="posted-on">Posted on <a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/" title="11:40 am" rel="bookmark"><time class="entry-date published" datetime="2009-10-24T11:40:38+00:00">October 24, 2009</time></a>, updated on <a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/" title="11:40 am" rel="bookmark"><time class="updated" datetime="2010-05-21T21:06:09+00:00">May 21, 2010</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="/author/admin/" title="View all posts by Sean">Sean</a></span></span>		</div><!-- .entry-meta -->
+	</header><!-- .entry-header -->
+	<div class="entry-content">
+		<p>After updating the firmware via the network connection, the Sony BDP-S360 died. It just flashes &#8220;SYS ERR&#8221; on the screen now and Sony&#8217;s eSupport says it will have to be sent in for repairs. In 7 to 10 days, not including shipping time, I may (or may not) get back a functional player. I sure hope Sony gets this Blu-ray thing sorted out soon. <a href="http://esupport.sony.com/US/perl/swu-download.pl?upd_id=4941&amp;mdl=BDPS360">http://esupport.sony.com/US/perl/swu-download.pl?upd_id=4941&amp;mdl=BDPS360</a></p>
+<p><span style="font-size:smaller">Comments for this post have been turned off due to heavy spam.</span></p>
+			</div><!-- .entry-content -->
+
+	<footer class="entry-meta">
+		This entry was posted in <a href="/category/geek-centric/" rel="category tag">Geek-centric</a>, <a href="/category/home-theater/" rel="category tag">Home Theater</a>. Bookmark the <a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/" title="Permalink to Sony BDP-S360 Firmware Update 007 wrecked my player" rel="bookmark">permalink</a>.
+			</footer></div><!-- .entry-meta -->
+</article><!-- #post-## -->
+
+
+		
+		<div  class="col-md-4 randomposts" style="display:none;" >
+			<h2>You may also Like <span class="catcolor"></span></h2>		
+		
+<article class="post-37 post type-post status-publish format-standard hentry category-geek-centric category-home-theater">
+	<header class="post-header">
+		<h3 class="entry-title">
+			<a href="/2009/09/18/extending-the-home-network/" rel="bookmark">Extending the Home Network</a>
+		</h3>
+	</header><!-- .entry-header -->
+</article><!-- #post -->
+<article class="post-567 post type-post status-publish format-standard has-post-thumbnail hentry category-personal">
+		<div class="post-thumbnail">
+			<a href="/2014/10/13/the-hole-in-my-back-yard/">
+			<img width="300" height="168" src="/wp-content/uploads/2014/10/hole-in-my-back-yard-01-under-the-hydrangeas-300x168.jpg" class="attachment-medium size-medium wp-post-image" alt="A hole in my back yard" srcset="/wp-content/uploads/2014/10/hole-in-my-back-yard-01-under-the-hydrangeas-300x168.jpg 300w, /wp-content/uploads/2014/10/hole-in-my-back-yard-01-under-the-hydrangeas-1024x576.jpg 1024w, /wp-content/uploads/2014/10/hole-in-my-back-yard-01-under-the-hydrangeas.jpg 1328w" sizes="(max-width: 300px) 100vw, 300px" />			</a>
+		</div>	
+			<header class="post-header">
+		<h3 class="entry-title">
+			<a href="/2014/10/13/the-hole-in-my-back-yard/" rel="bookmark">The Hole in My Back Yard</a>
+		</h3>
+	</header><!-- .entry-header -->
+</article><!-- #post -->
+<article class="post-525 post type-post status-publish format-standard hentry category-personal tag-slippers">
+	<header class="post-header">
+		<h3 class="entry-title">
+			<a href="/2013/07/28/my-old-friends-have-something-to-say/" rel="bookmark">My Old Friends Have Something To Say</a>
+		</h3>
+	</header><!-- .entry-header -->
+</article><!-- #post -->
+<article class="post-214 post type-post status-publish format-standard hentry category-geek-centric category-tech category-web-development">
+	<header class="post-header">
+		<h3 class="entry-title">
+			<a href="/2010/06/18/wordpress-3-0/" rel="bookmark">WordPress 3.0</a>
+		</h3>
+	</header><!-- .entry-header -->
+</article><!-- #post -->
+		</div>
+
+		
+		<ul class="socialize-this" style="display:none;"><li><a href="http://del.icio.us/submit?url=%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F&title=Sony+BDP-S360+Firmware+Update+007+wrecked+my+player" target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/del.png" width="48px" height="48px" alt="Delicious" title="Delicious" /></a></li><li><a href="http://www.facebook.com/sharer.php?u=%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F&t=Sony+BDP-S360+Firmware+Update+007+wrecked+my+player" target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/facebook.png" width="48px" height="48px" alt="Facebook" title="Facebook" /></a></li><li><a href="http://digg.com/submit?phase=2&url=%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F" target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/digg.png" width="48px" height="48px" alt="Digg" title="Digg" /></a></li><li><a href="http://www.reddit.com/submit?url=%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F&title=Sony+BDP-S360+Firmware+Update+007+wrecked+my+player" target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/reddit.png" width="48px" height="48px" alt="Reddit" title="Reddit" /></a></li><li><a href="http://www.stumbleupon.com/submit?url=%2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F&title=Sony+BDP-S360+Firmware+Update+007+wrecked+my+player" target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/stumble.png" width="48px" height="48px" alt="StumbleUpon" title="StumbleUpon" /></a></li><li><a href="http://twitter.com/home?status=Currently Reading %2F2009%2F10%2F24%2Fsony-bdp-s360-firmware-update-007-wrecked-my-player%2F"  target="_blank"><img src="/wp-content/plugins/socialize-this/widgets/alteredicons/twitter.png" width="48px" height="48px" alt="Twitter" title="Twitter" /></a></li></ul>
+	<div id="comments" style="display:none;" class="comments-area">
+
+	
+			<header class="page-header">
+			<h2 class="comments-title">
+				30 thoughts on &ldquo;<span>Sony BDP-S360 Firmware Update 007 wrecked my player</span>&rdquo;			</h2>
+		</header>
+
+		
+		<ol class="comment-list media-list">
+			
+	<li id="comment-18" class="comment even thread-even depth-1">
+		<article id="div-comment-18" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/52ec047dbc2594eab5dc92fb576c1593?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/52ec047dbc2594eab5dc92fb576c1593?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">harry</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-18">
+							<time datetime="2009-10-26T08:49:03+00:00">
+								October 26, 2009 at 8:49 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Did the firmware update generate any errors? Did you have a USB drive? Did the firmware update use it? I just got a new player with version 006 and saw the update, but decided to delay the update in case there were problems (like yours). Since they haven&#8217;t pulled the update yet, hopefully your case is a fluke. I&#8217;m still holding off the update a while. It probably won&#8217;t make any difference to me anyway. Good luck fixing yours.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-19" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-19" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-19">
+							<time datetime="2009-10-26T09:00:50+00:00">
+								October 26, 2009 at 9:00 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>After going through the process apparently well and showing me the progress bars and what-not, the only feedback the unit provided was a big yellow triangle with an exclamation point in it on the tv screen, and &#8220;SYS ERR&#8221; on the front panel. The update was done via a network connection, so no, it didn&#8217;t use a USB drive. It could have been a fluke, true. Or maybe the software that manages the update doesn&#8217;t use checksums to establish an uncorrupted firmware download before applying it. Who knows. I typically delay updates such as this as a course of habit, not sure why I rushed into the breach on this one. Thanks!</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-25" class="comment even thread-even depth-1">
+		<article id="div-comment-25" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/943acd94a2fb1c8c30f02503021cfb78?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/943acd94a2fb1c8c30f02503021cfb78?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">phil</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-25">
+							<time datetime="2009-11-05T14:44:33+00:00">
+								November 5, 2009 at 2:44 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>i did the update today and my player seems to be working just fine.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-28" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-28" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/327584bbb898a36be30f80353994f64e?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/327584bbb898a36be30f80353994f64e?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Stephen</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-28">
+							<time datetime="2009-11-09T19:56:58+00:00">
+								November 9, 2009 at 7:56 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I recently tried to update the firmware via the network connection and it killed my player too. I wish I would have checked on the web first otherwise I never would have tried to update the firmware</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-29" class="comment even thread-even depth-1">
+		<article id="div-comment-29" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/b2ed3cbb4adfde8d22c0389656cbd6ec?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b2ed3cbb4adfde8d22c0389656cbd6ec?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Greg</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-29">
+							<time datetime="2009-11-13T03:05:23+00:00">
+								November 13, 2009 at 3:05 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>You&#8217;ve probably done this already, but the sony website give some things to try if you get various errors&#8230;<br />
+<a href="http://esupport.sony.com/perl/swu-download.pl?upd_id=4941&#038;mdl=BDPS360&#038;template_id=1&#038;region_id=1" rel="nofollow">http://esupport.sony.com/perl/swu-download.pl?upd_id=4941&#038;mdl=BDPS360&#038;template_id=1&#038;region_id=1</a></p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-30" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-30" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-30">
+							<time datetime="2009-11-13T08:27:09+00:00">
+								November 13, 2009 at 8:27 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Yes, thank you, Greg.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-36" class="comment even thread-even depth-1">
+		<article id="div-comment-36" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/063e10b63904dc4c890ebba573006352?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/063e10b63904dc4c890ebba573006352?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Jean</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-36">
+							<time datetime="2009-11-20T10:28:51+00:00">
+								November 20, 2009 at 10:28 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Hello world,</p>
+<p>From France my sony player died too. I am so frustrated.</p>
+<p>Tomorrow going to Fnac </p>
+<p>Hapy technology</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-38" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-38" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/22f23c5db76b1f1c402c36c11de29e92?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/22f23c5db76b1f1c402c36c11de29e92?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">John FR Canada</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-38">
+							<time datetime="2009-11-20T21:28:56+00:00">
+								November 20, 2009 at 9:28 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Same for me Man!  I&#8217;ve been out of town for work, so I have not used the Sony BDP-S360 for awhile!  When I returned home and turned it on, I was advised that an update was available. I accepted the update and was later informed that the Download was successful.  However &#8230; at about stage 4 of the &#8220;installing update&#8221;, the front panel Glitched and read: SYS ERR and refuses to accept any other commands at this time. Kinda Shitty cause I have always trusted and had no problems with Sony Products.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-39" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1">
+		<article id="div-comment-39" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-39">
+							<time datetime="2009-11-20T21:46:38+00:00">
+								November 20, 2009 at 9:46 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>The thing that bugs me the most is how lame Sony&#8217;s eSupport has been. Horrible customer service. I&#8217;ll be surprised if I ever get a working player back.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-43" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-43" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/b2901713275647292ada4cd5f58396ba?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b2901713275647292ada4cd5f58396ba?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Al</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-43">
+							<time datetime="2009-11-30T13:41:22+00:00">
+								November 30, 2009 at 1:41 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Hi, just had the warning triangle of doom. Trying to do an update via disc, but looks like it needs to return for repair.</p>
+<p>No power or internet glitches during the process either. I&#8217;m phoning sony in the morning armed with the above info. thanks people, looks this is a pretty common issue?</p>
+<p>Al</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-44" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1">
+		<article id="div-comment-44" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-44">
+							<time datetime="2009-11-30T13:52:00+00:00">
+								November 30, 2009 at 1:52 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>If this group of comments is any guide, yeah, Sony served up a bad firmware update. I still haven&#8217;t got my player back. Or even heard a word back from them that I didn&#8217;t have to pursue doggedly to get.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-47" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-47" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/6b8b62e56fa5faddc7622e51b4218cda?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6b8b62e56fa5faddc7622e51b4218cda?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Scott</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-47">
+							<time datetime="2009-12-06T07:23:58+00:00">
+								December 6, 2009 at 7:23 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Bought a 760, and the same thing has happened to me using the wireless update.<br />
+Any other 760 owners with the same issue?</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-48" class="comment even thread-even depth-1">
+		<article id="div-comment-48" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/372a749b6cc5c6f46d78224145cdc0f2?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/372a749b6cc5c6f46d78224145cdc0f2?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Daniel</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-48">
+							<time datetime="2009-12-07T15:58:13+00:00">
+								December 7, 2009 at 3:58 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I just purchased this for my folks for Christmas, don&#8217;t know the current version as of yet, but I plan to hook it all up before I give it to them.  Was curious as if there were still problems with the 007 patch? I also was planning, if the update was needed, to use a flash drive to transfer the files, would anyone NOT recommend this? Thanks.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-49" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-49" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-49">
+							<time datetime="2009-12-07T16:02:15+00:00">
+								December 7, 2009 at 4:02 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>So far, I&#8217;ve only heard about problems from folks doing the online update via a network connection. Maybe the flash drive is safer? Hard to understand why it would matter. Particularly since Sony identifies the online update as the preferred method.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-51" class="comment even thread-even depth-1">
+		<article id="div-comment-51" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/c3a947e6e076b8438876430d8ac4b626?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/c3a947e6e076b8438876430d8ac4b626?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">David</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-51">
+							<time datetime="2009-12-12T01:00:46+00:00">
+								December 12, 2009 at 1:00 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I was doing the update with an image of the downloaded file on a disc.  File was correct size and had correct name &#8211; as the instructions advice.  Got to step 4 and &#8211; &#8220;SYS ERR&#8221;  Now it is bricked.  &#8211;  So no &#8211; the issue is not fixed yet.  Nor is the disc a good option.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-53" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-53" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-53">
+							<time datetime="2009-12-12T10:11:52+00:00">
+								December 12, 2009 at 10:11 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Thanks David, now that I look closer, I see that Al (November 30, 2009 at 1:41 pm) also was using a disc to do the update. So, clearly not restricted to the network updates. I&#8217;m beginning to think a certain batch of BDP-S360s was simply defective in the box.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-54" class="comment even thread-even depth-1">
+		<article id="div-comment-54" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/9588e1e8ba7b01f057fee20718f0ee23?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/9588e1e8ba7b01f057fee20718f0ee23?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">John R</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-54">
+							<time datetime="2009-12-13T09:21:37+00:00">
+								December 13, 2009 at 9:21 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Same happened to me, network update.</p>
+<p>Guess there&#8217;s no fix and it&#8217;s a return under warranty issue ?</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-55" class="comment byuser comment-author-admin bypostauthor odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-55" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/518be421a1ba4a1bc7908ed03d5602f0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='/' rel='external nofollow' class='url'>Sean</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-55">
+							<time datetime="2009-12-13T09:38:44+00:00">
+								December 13, 2009 at 9:38 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>That seems to be the case. Yay, Sony!</p>
+<p>I got mine back after about 40 days. Seems to be working, but I will be forever scared of any firmware update on a Sony product.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-59" class="comment even thread-even depth-1">
+		<article id="div-comment-59" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/35ff47a258571742568db05a47a41163?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/35ff47a258571742568db05a47a41163?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Warren</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-59">
+							<time datetime="2009-12-21T02:12:12+00:00">
+								December 21, 2009 at 2:12 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Updated, well tried to update my BDP-s360 by disc and got the same sys err display. From the looks of it my player is screwed. The 007 update is more like a downdate! Boo Sony!</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-61" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-61" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://1.gravatar.com/avatar/7858fd33a48b81a30518aad1b2441045?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7858fd33a48b81a30518aad1b2441045?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Alain</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-61">
+							<time datetime="2009-12-24T14:35:29+00:00">
+								December 24, 2009 at 2:35 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I just open the box of my brand new BDPS360, work fine.<br />
+Plug the lan wire, accept the update and now the blueray die.</p>
+<p>I have the SYS ERR and the drawer open. Even if I press power or close/open button, notting happen. If I old the power button for 10 sec, sys err came back and drawer open.</p>
+<p>What an update&#8230;</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-66" class="comment even thread-even depth-1">
+		<article id="div-comment-66" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/0f313a5c65cbc48fee792551456b7413?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/0f313a5c65cbc48fee792551456b7413?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Daniel</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-66">
+							<time datetime="2009-12-28T17:00:15+00:00">
+								December 28, 2009 at 5:00 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Grrrrrrrrrrreetings from Denmark.</p>
+<p>Got the 360 for christmas. Now its dead.</p>
+<p>Network update.</p>
+<p>Bah!</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-67" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-67" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/6b8b62e56fa5faddc7622e51b4218cda?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/6b8b62e56fa5faddc7622e51b4218cda?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Scott</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-67">
+							<time datetime="2009-12-31T08:49:31+00:00">
+								December 31, 2009 at 8:49 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Got my BDP-s760 back from repairs&#8230;already installed with 007 update, so don&#8217;t have to do that again.<br />
+Just not so sure I&#8217;ll ever update again in the future!</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-71" class="comment even thread-even depth-1">
+		<article id="div-comment-71" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/b2901713275647292ada4cd5f58396ba?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/b2901713275647292ada4cd5f58396ba?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Al</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-71">
+							<time datetime="2010-01-04T10:07:36+00:00">
+								January 4, 2010 at 10:07 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>hi, to clear things up, i first tried the online update where the s360 got bricked, i then tried the disc option afterwards with no success.</p>
+<p>After getting the runaround from sony repair centres (since these are mostly retail outlets, they dont want to know about online purchased warranty repairs), i phoned Amazon (where i purchased from) and they swapped with a new unit next day. Thumbs up to Amazon. Well done for a customer service that far exceeds that of a high street retailer.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-72" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-72" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://1.gravatar.com/avatar/7c3509d2a99a0c430431cdbd721dd0c3?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/7c3509d2a99a0c430431cdbd721dd0c3?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">David</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-72">
+							<time datetime="2010-01-05T02:02:28+00:00">
+								January 5, 2010 at 2:02 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I followed Sony&#8217;s step by step instructions to install a firmware update and now my Blu-ray player<br />
+is a brick. When i inserted the CD it was recognized<br />
+by the brick , it told me what firmware version i<br />
+currently had and that i had put in a firmware upgrade disc with xxx.007 to select ok and it would<br />
+update it for me. It displays YUP 0/9 then YUP 1/9<br />
+and then YUP 2/9 and that is as far as the process<br />
+got when the player ejected the update disc and displayed YUP NG. As per Sony&#8217;s instructions i pressed the power button until the player turned off<br />
+and then powered it back on and was instructed by the site to reinsert the disc and after doing so the<br />
+player simply keep ejecting it. When i turned it back on the YUP NG error had changed to SYS ERR and it even states this on Sony&#8217;s site yet it&#8217;s still a brick. I bought this unit the day it<br />
+was released back in april 2009 so it&#8217;s not a bad batch as mentioned above. From reading the above posts it does this on numerous player models regardless if done via the home network of the update disc. Sony&#8217;s told me on the phone it was not a covered warranty item and so they would not pay for shipping and<br />
+i told them i was going to file a complaint with the BBB. It clear that their firmware update had caused this issue. They should next day me a new unit and have a prepaid return label on the box , this is the way Dell does it as they truly support their products.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-74" class="comment even thread-even depth-1">
+		<article id="div-comment-74" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://1.gravatar.com/avatar/72c1b98c9037a93065258d969fbd1117?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/72c1b98c9037a93065258d969fbd1117?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Chris</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-74">
+							<time datetime="2010-01-06T17:49:58+00:00">
+								January 6, 2010 at 5:49 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>I&#8217;ve just had this error on my new BDP-S760.<br />
+Only had it a day!<br />
+When I connected it up I setup wireless internet access and checked for updates &#8211; it said I was already up to date.<br />
+Watched half of Iron Man to test it out and downloaded some BD Live content OK.<br />
+A few hours later I put District 9 in and clicked BD Live content and I was told I didn&#8217;t have internet access so went back into settings to see why.<br />
+It couldn&#8217;t find my access point or any others and there are loads visible in my house. The configuration settings I had entered were all there correct but it couldn&#8217;t see the wireless network at all.<br />
+I switched it off and tried again twice &#8211; still no access points available.<br />
+I decided to switch it off at the wall but when it came back on I just got &#8220;Wait&#8221; then &#8220;Sys Err&#8221;.<br />
+It&#8217;s now a brick and I didn&#8217;t even do a firmware update!<br />
+Can&#8217;t eject the disk by powering on with eject held down like it says on the Sony support site so I can&#8217;t even try a disk firmware update to see if that&#8217;s the problem.<br />
+I&#8217;ll have to take it back to the Sony shop and get a replacement but I&#8217;ll probably lose my copy of District 9 without even watching it!<br />
+What a nightmare.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-89" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-89" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/54cdcea8e90ab33babfa70a4f1a6d2b0?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/54cdcea8e90ab33babfa70a4f1a6d2b0?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Dan</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-89">
+							<time datetime="2010-02-16T23:47:40+00:00">
+								February 16, 2010 at 11:47 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Literally opened it and while setting it up i updated it and half way through installing it a &#8220;!&#8221; came up on the screen and it started blinking &#8220;sys err&#8221;. Thought this dvd player was a good deal from all the reviews i was reading. . .</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-101" class="comment even thread-even depth-1">
+		<article id="div-comment-101" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://0.gravatar.com/avatar/324b49630b921fb1093346d891634db7?s=50&#038;d=mm&#038;r=g' srcset='http://0.gravatar.com/avatar/324b49630b921fb1093346d891634db7?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Matt</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-101">
+							<time datetime="2010-03-04T22:26:06+00:00">
+								March 4, 2010 at 10:26 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Just tried to update my bdp-s360, same problem sys err. I wish I would have found this website first. I am extremely dissapointed in Sony.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-102" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-102" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://1.gravatar.com/avatar/a0fc2c7c3a85a8e63f934942bb5813a6?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a0fc2c7c3a85a8e63f934942bb5813a6?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn"><a href='http://blockhead_productions.co.cc/' rel='external nofollow' class='url'>Jay</a></cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-102">
+							<time datetime="2010-03-09T08:39:27+00:00">
+								March 9, 2010 at 8:39 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Sorry to hear about all the hassle however I purchased my Sony bdp-s360 from Walmart for $118 in early December. I&#8217;m pretty sure the firmware installed was .006. I went online to the Sony site made a disc and updated to .007 and it has worked fine since. Honestly, unless I had bought it online if I encountered an issue I would have just returned it for a new one. To hell with sending it back. Just keep trying until you get a good one. It seems rather obvious that there was a bad batch of players. They could be mixed up all over the country as well so who knows where you would find a batch that&#8217;s not screwed. I&#8217;ve given up on Brand loyalty because it seems like every company creates crap nowadays anyway. I hope some of you with issues returned yours and got a good one because it&#8217;s a pretty good player if it works.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-106" class="comment even thread-even depth-1">
+		<article id="div-comment-106" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://1.gravatar.com/avatar/a9c6282ead3a7dd06f00ce820f6012ea?s=50&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/a9c6282ead3a7dd06f00ce820f6012ea?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Matt</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-106">
+							<time datetime="2010-03-22T08:51:42+00:00">
+								March 22, 2010 at 8:51 am							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>BDP-S560</p>
+<p>Worked out of box.</p>
+<p>Got the player configured wirelessly.</p>
+<p>Downloaded update, while installing it crashed.</p>
+<p>Triangle with exclamation point on screen, Sys Err on Player.</p>
+<p>Sony told me it would take 7 days &#8211; from what you guys say, I better go ahead and get another.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+
+	<li id="comment-112" class="comment odd alt thread-odd thread-alt depth-1">
+		<article id="div-comment-112" class="comment-body media">
+			<a class="pull-left" href="#">
+				<img alt='' src='http://2.gravatar.com/avatar/823db9c8ea633c6591f595a2d4dd7651?s=50&#038;d=mm&#038;r=g' srcset='http://2.gravatar.com/avatar/823db9c8ea633c6591f595a2d4dd7651?s=100&amp;d=mm&amp;r=g 2x' class='avatar avatar-50 photo' height='50' width='50' />			</a>
+			
+			<div class="media-body">
+				<div class="media-body-wrap panel">
+					
+					<h5 class="media-heading"><cite class="fn">Mike</cite> <span class="says">says:</span></h5>
+					<p class="comment-meta">
+						<a href="/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comment-112">
+							<time datetime="2010-04-09T18:18:18+00:00">
+								April 9, 2010 at 6:18 pm							</time>
+						</a> 
+											</p>
+	
+										
+					<div class="comment-content">
+						<p>Just took my BDP-S360 out of the box&#8230;setup the initial TV settings.  Then did the firmware update&#8230;BRICKED!!  Got the triangle of death and the SYS ERR displayed&#8230;I am so pissed!  Had &#8220;Taken&#8221; ready to watch too.  Sony (Ernie-a guy that could barly speak english) told me the same&#8230;7 &#8211; 10 days from the time I get the unit to Texas for &#8220;Repairs&#8221;.  F them!  It&#8217;s going back to the vendor and I think I&#8217;ll get a Samsung instead.</p>
+					</div><!-- .comment-content -->
+										
+					<footer class="reply comment-reply panel-footer">
+											</footer><!-- .reply -->
+
+				</div>
+			</div><!-- .media-body -->
+
+		</article><!-- .comment-body -->
+
+	</li><!-- #comment-## -->
+		</ol><!-- .comment-list -->
+
+		
+	
+			<p class="no-comments">Comments are closed.</p>
+	
+	
+</div><!-- #comments -->
+
+		
+		
+
+	
+	</div><!-- close .main-content-inner -->
+	
+	<div class="sidebar col-12 col-lg-4">
+
+				<div class="sidebar-padder">
+			<div id="social">
+																				</div>
+						<aside id="wp_twitter_goodies_profile_widgets" style="display:none;" class="widget widget_wp_twitter_goodies_profile"><h3 class="widget-title">Odd Tweets</h3><script src="http://widgets.twimg.com/j/2/widget.js"></script><script>new TWTR.Widget({  version: 2,  type: 'profile',  rpp: 30,  interval: 5000,  width: 220,  height: 500,  theme: {    shell: {      background: '#333333',      color: '#FFFFFF'    },    tweets: {      background: '#000000',      color: '#FFFFFF',      links: '#4AED05'    }  },  features: {    scrollbar: false,    loop: true,    live: true,    hashtags: true,    timestamp: true,    avatars: false,    behavior: 'default'  }}).render().setUser('wagonlips').start();</script></aside>			
+		</div><!-- close .sidebar-padder -->
+			</div><!-- close .*-inner (main-content or sidebar, depending if sidebar is used) -->
+		</div><!-- close .row -->
+	</div><!-- close .container -->
+</div><!-- close .main-content -->
+<div id="primery-footer">
+	<div class="container">
+		</div>
+
+</div>
+
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+	<div class="container">
+		<div class="row">		
+			<div class="site-footer-inner col-12">
+			
+				<div class="site-info">
+										Sean Camden					<span class="sep"><a href="http://www.kopimi.com/"><img src="/wp-content/uploads/2014/12/Kopimizm.svg" height="20" width="20" alt="Copy Me" /></a> | </span>
+					Theme: WriterStrap by <a href="http://crayonux.com/" rel="designer">Crayonux</a>.				</div><!-- close .site-info -->
+			
+			</div>	
+		</div>
+	</div><!-- close .container -->
+</footer><!-- close #colophon -->
+
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.4.2'></script>
+<script type='text/javascript' src='/wp-content/themes/writerstrap/includes/js/skip-link-focus-fix.js?ver=20130115'></script>
+<script type='text/javascript' src='/wp-includes/js/wp-embed.min.js?ver=4.5.7'></script>
+</body>
+</html>

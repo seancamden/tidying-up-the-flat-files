@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>print &#8211; Sean Camden</title>
+	<atom:link href="/tag/print/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>First Steps from Print to Web Designer</title>
+		<link>/2010/04/11/first-steps-from-print-to-web-designer/</link>
+		<comments>/2010/04/11/first-steps-from-print-to-web-designer/#respond</comments>
+		<pubDate>Sun, 11 Apr 2010 21:07:19 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[designing for web]]></category>
+		<category><![CDATA[print]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=64</guid>
+		<description><![CDATA[Good design is good design. And skills developed designing for print are transferable to Web. But the tools are different, the challenges are different, and so are the possibilities. You won&#8217;t have to worry about widows and orphans so much. Your font choices are a lot fewer. Instead of leading and tracking you now have [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Good design is good design. And skills developed designing for print are transferable to Web. But the tools are different, the challenges are different, and so are the possibilities. You won&#8217;t have to worry about <a href="http://en.wikipedia.org/wiki/Widows_and_orphans">widows and orphans</a> so much. Your <a href="http://www.ampsoft.net/webdesign-l/WindowsMacFonts.html">font choices</a> are a lot fewer. Instead of <a href="http://en.wikipedia.org/wiki/Leading">leading</a> and <a href="http://en.wikipedia.org/wiki/Kerning">tracking</a> you now have <a href="http://www.w3schools.com/css/pr_dim_line-height.asp">line-height</a> and <a href="http://www.w3schools.com/css/pr_text_letter-spacing.asp">letter-spacing</a> (kerning isn&#8217;t adjustable with CSS). You will have to worry about things like <a href="http://en.wikipedia.org/wiki/Cross-browser">cross-browser compatibility</a>, not to mention <a href="http://forabeautifulweb.com/classes/on/accessibility">accessibility</a>, and <a href="http://www.webstandards.org/">standards</a>. But you&#8217;ll also have a much shorter wait to see your work published, and can interact with your users in ways that were simply impossible with print.</p>
+<p>The Web is an exciting place. Technologies come and go quickly and it can be difficult to keep up, but it can be fun, too. Here is a list that is totally not exhaustive but, I think, covers some very important steps towards becoming comfortable with designing for the Web, particularly for someone already experienced at designing for print.</p>
+<ol>
+<li><a href="http://www.w3schools.com/html/default.asp">Learn HTML</a> and <a href="http://www.w3schools.com/css/default.asp">learn CSS</a>, too. HTML defines the nuts and bolts of everything on the Web. CSS is what you use to make it look nice. <a href="http://www.cssbeauty.com/gallery/">CSS is pretty cool</a> and provides a <a href="http://www.csszengarden.com/">wide range of design options</a> and <a href="http://net.tutsplus.com/articles/web-roundups/are-you-making-these-10-css-mistakes/">limitations</a> that, unless you understand the working parameters, are not going to be intuitive to someone coming from a print background. The w3schools.com lessons are great, but to dive deeper without breaking the  bank, classes at the <a href="http://www.oreillyschool.com/courses/htmlcss/">O&#8217;Reilly School  of Technology</a> are a sensible option.<br />
+Since you&#8217;re already familiar with Adobe products, and might even have a copy of Dreamweaver since it comes with several suites, you may be tempted to skip learning HTML and CSS. <strong>Don&#8217;t.</strong> Imagine being hired as a chef but not knowing how to cook. The quality of the device that promises to do the cooking for you is irrelevant. If your intention is to be a skilled practitioner, you will have to learn the trade. And you&#8217;ll need a <a href="http://en.wikipedia.org/wiki/List_of_text_editors">text editor</a> (not to be confused with a word processor). <a href="http://www.notetab.com/">NoteTab</a> is a good one for Windows, or <a href="http://www.barebones.com/products/TextWrangler/">TextWrangler</a> for Mac.<br />
+Also, be concerned about good <a href="http://en.wikipedia.org/wiki/User_interface">UI</a>. In the same way that someone might expect a book to have its TOC come before its content, a web site and its navigation must be intuitive in order to be useful. <a href="http://www.amazon.com/Think-Common-Sense-Approach-Usability/dp/0789723107">Steve Krug</a> and <a href="http://www.useit.com/">Jakob Nielsen</a> are two authors/researchers who have explored this field, and you might find their work helpful. If you&#8217;ve ever cursed a new ATM or debit machine because the OK button wasn&#8217;t where you expected it to be, you already know the importance of good UI. Learning more will not only make your clients happy, it will make the Web a better place, too. At any rate, be careful not to reinvent things if you don&#8217;t have to.</li>
+<li>Do some blogging. Get a free blog from <a href="http://wordpress.com/">WordPress.com</a> or <a href="https://www.blogger.com/start">Blogger.com</a> and post a few things. Post about the weather, post about the books you read. The subject matter is not important. To start, this is just a way to get the feel of how things work on the Web, what it&#8217;s like to be a Web author. Ultimately, your blog will be your first line of communication online, so don&#8217;t post anything too crazy.</li>
+<li>Buy a domain. Buy a few domains; they&#8217;re cheap. Your domain is, sort of, the online equivalent to a storefront, and they can be fun, too. <a href="http://instantdomainsearch.com/">Think up a cool name that no one else has thought</a> of and buy it at any of the online registrars like directnic or godaddy.</li>
+<li>Get a site hosted. You&#8217;ll need to pay a web host (but not very much) and then follow some instructions to upload your site to the host servers. This site is currently hosted at <a href="http://laughingsquid.us/">Laughing  Squid</a>, but <a href="http://www.google.com/search?q=web+hosting&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a">many,  many others</a> can easily be found. You&#8217;ll also need an FTP program of some sort. <a href="http://fileZilla-project.org/">Filezilla</a> is a fine choice (and free), but many other <a href="http://www.google.com/search?q=ftp+software&amp;ie=utf-8&amp;oe=utf-8&amp;aq=t&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a">FTP programs</a> are available.</li>
+<li>Learn about <a href="http://www.getclicky.com/">web analytics</a>, <a href="http://en.wikipedia.org/wiki/Search_engine_optimization">SEO</a>, and <a href="http://www.Google.com/AdWords">online advertising</a>. Your clients will need this stuff because, unlike a brick and mortar storefront, a &#8220;location, location, location&#8221; on the Web has to be generated, generated, generated.</li>
+</ol>
+]]></content:encoded>
+			<wfw:commentRss>/2010/04/11/first-steps-from-print-to-web-designer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

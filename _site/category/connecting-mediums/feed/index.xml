@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Connecting Mediums &#8211; Sean Camden</title>
+	<atom:link href="/category/connecting-mediums/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>World IPV6 Day</title>
+		<link>/2011/01/12/world-ipv6-day/</link>
+		<comments>/2011/01/12/world-ipv6-day/#respond</comments>
+		<pubDate>Wed, 12 Jan 2011 18:53:27 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Connecting Mediums]]></category>
+		<category><![CDATA[ip]]></category>
+		<category><![CDATA[ipv6]]></category>
+		<category><![CDATA[ipv6 day]]></category>
+		<category><![CDATA[nat]]></category>
+		<category><![CDATA[shortage]]></category>
+
+		<guid isPermaLink="false">/?p=292</guid>
+		<description><![CDATA[World IPV6 Day is the 8th of June, 2011. Because using NAT to cover the IP address shortages is going to suck.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://isoc.org/wp/worldipv6day/">World IPV6 Day</a> is the 8th of June, 2011.<br />
+Because using <a href="http://en.wikipedia.org/wiki/Network_address_translation">NAT</a> to cover the <a href="http://en.wikipedia.org/wiki/IPv4_address_exhaustion">IP address shortages</a> is going to suck.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2011/01/12/world-ipv6-day/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

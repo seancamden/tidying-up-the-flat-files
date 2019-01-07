@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+     Samba on Raspberry Pi with Arch Linux
+    
+  </title>
+  <meta name="description" content="Live from the Valley of No Regrets">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+
+  <body>
+    <section class="page-wrapper">
+      <p><a href="http://www.seancamden.com/wp-content/uploads/2012/11/raspberrypi1.jpeg"><img src="http://www.seancamden.com/wp-content/uploads/2012/11/raspberrypi1.jpeg" alt="" title="raspberrypi" width="204" height="247" class="alignnone size-full wp-image-490" /></a></p>
+
+<p><a href="http://www.seancamden.com/wp-content/uploads/2012/11/arch-linux-arm.png"><img src="http://www.seancamden.com/wp-content/uploads/2012/11/arch-linux-arm.png" alt="Arch Liux Arm" title="arch-linux-arm" width="400" height="89" class="alignnone size-full wp-image-484" srcset="http://seancamden.cosm/wp-content/uploads/2012/11/arch-linux-arm.png 400w, http://seancamden.cosm/wp-content/uploads/2012/11/arch-linux-arm-300x66.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a></p>
+
+<p>I followed <a href="https://wiki.archlinux.org/index.php/Samba">Samba for Arch Linux</a> and the <a href="http://archlinuxarm.org/support/guides/applications/samba">Arch Linux Arm Guide to Samba</a> to get Samba working on my <a href="http://www.raspberrypi.org/">Raspberry Pi</a>.</p>
+
+<p>This version of Arch Arm is using <a href="https://wiki.archlinux.org/index.php/Systemd">systemd</a> to manage services, so there is no more <code class="highlighter-rouge">/etc/rc.conf</code> file to edit and no <code class="highlighter-rouge">rc.d</code> command available to start anything (as the Arch Linux Arm Guide instructs). One simply types <code class="highlighter-rouge">systemctl start smbd.service</code> to make it go (after configuring <code class="highlighter-rouge">/etc/samba/smb.conf</code>, of course).</p>
+
+    </section>
+  </body>
+
+  <div id="footer">Hi, I'm a footer.</div>
+
+</html>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Geek-centric &#8211; Sean Camden</title>
+	<atom:link href="/category/geek-centric/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Samba on Raspberry Pi with Arch Linux</title>
+		<link>/2012/11/04/samba-on-raspberry-pi-with-arch-linux/</link>
+		<comments>/2012/11/04/samba-on-raspberry-pi-with-arch-linux/#respond</comments>
+		<pubDate>Sun, 04 Nov 2012 18:09:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Arch Arm]]></category>
+		<category><![CDATA[Arch Linux]]></category>
+		<category><![CDATA[Raspberry Pi]]></category>
+		<category><![CDATA[Samba]]></category>
+		<category><![CDATA[systemd]]></category>
+
+		<guid isPermaLink="false">/?p=483</guid>
+		<description><![CDATA[I followed Samba for Arch Linux and the Arch Linux Arm Guide to Samba to get Samba working on my Raspberry Pi. This version of Arch Arm is using systemd to manage services, so there is no more /etc/rc.conf file to edit and no rc.d command available to start anything (as the Arch Linux Arm [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="/wp-content/uploads/2012/11/raspberrypi1.jpeg"><img src="/wp-content/uploads/2012/11/raspberrypi1.jpeg" alt="" title="raspberrypi" width="204" height="247" class="alignnone size-full wp-image-490" /></a><br />
+<a href="/wp-content/uploads/2012/11/arch-linux-arm.png"><img src="/wp-content/uploads/2012/11/arch-linux-arm.png" alt="Arch Liux Arm" title="arch-linux-arm" width="400" height="89" class="alignnone size-full wp-image-484" srcset="/wp-content/uploads/2012/11/arch-linux-arm.png 400w, /wp-content/uploads/2012/11/arch-linux-arm-300x66.png 300w" sizes="(max-width: 400px) 100vw, 400px" /></a><br />
+I followed <a href="https://wiki.archlinux.org/index.php/Samba">Samba for Arch Linux</a> and the <a href="http://archlinuxarm.org/support/guides/applications/samba">Arch Linux Arm Guide to Samba</a> to get Samba working on my <a href="http://www.raspberrypi.org/">Raspberry Pi</a>.</p>
+<p>This version of Arch Arm is using <a href="https://wiki.archlinux.org/index.php/Systemd">systemd</a> to manage services, so there is no more <code>/etc/rc.conf</code> file to edit and no <code>rc.d</code> command available to start anything (as the Arch Linux Arm Guide instructs). One simply types <code>systemctl start smbd.service</code> to make it go (after configuring <code>/etc/samba/smb.conf</code>, of course).</p>
+]]></content:encoded>
+			<wfw:commentRss>/2012/11/04/samba-on-raspberry-pi-with-arch-linux/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple 1 Sold at Auction</title>
+		<link>/2010/11/24/apple-1-sold-at-auction/</link>
+		<comments>/2010/11/24/apple-1-sold-at-auction/#respond</comments>
+		<pubDate>Wed, 24 Nov 2010 18:11:29 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[bargains]]></category>
+		<category><![CDATA[computers]]></category>
+
+		<guid isPermaLink="false">/?p=263</guid>
+		<description><![CDATA[Apple computer sells for $210,700 In a time when most personal computers were sold as self-assembly kits, the Apple-1 broke new ground as the first personal computer sold with a fully assembled motherboard. Fellow Apple co-founder Steve Wozniak, who attended the auction in London, threw in an autographed letter with the sale. Wozniak said he [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Apple computer sells for $210,700<br />
+<div id="attachment_264" style="width: 434px" class="wp-caption alignnone"><a href="http://news.cnet.com/8301-13579_3-20023772-37.html"><img src="/wp-content/uploads/2010/11/ap1.jpg" alt="Apple 1 sold at Christy&#039;s Auction House" title="Apple 1" width="424" height="318" class="size-full wp-image-264" srcset="/wp-content/uploads/2010/11/ap1.jpg 424w, /wp-content/uploads/2010/11/ap1-300x224.jpg 300w" sizes="(max-width: 424px) 100vw, 424px" /></a><p class="wp-caption-text">A bargain at $210k</p></div></p>
+<blockquote><p>
+In a time when most personal computers were sold as self-assembly kits, the Apple-1 broke new ground as the first personal computer sold with a fully assembled motherboard.</p>
+<p>Fellow Apple co-founder Steve Wozniak, who attended the auction in London, threw in an autographed letter with the sale. Wozniak said he was proud to have his work auctioned alongside such technologically notables as an Enigma, the World War II German code-making machine, and documents from British mathematician Alan Turing, a pioneer of modern computing.</p>
+<p>&#8220;Today my heart went out as I got to see things auctioned off like the Turing documents and the Enigma machine&#8211;and the Apple I,&#8221; Wozniak reportedly told journalists after the auction. &#8220;It really was an important step, (even though) I didn&#8217;t feel that way when I designed it.&#8221;</p>
+</blockquote>
+<p>Read more: <a href="http://news.cnet.com/8301-13579_3-20023772-37.html#ixzz16DzVBwv1">http://news.cnet.com/8301-13579_3-20023772-37.html#ixzz16DzVBwv1</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/11/24/apple-1-sold-at-auction/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>You Might Get Eaten By a Smith Corona</title>
+		<link>/2010/11/01/you-might-get-eaten-by-a-smith-corona/</link>
+		<comments>/2010/11/01/you-might-get-eaten-by-a-smith-corona/#respond</comments>
+		<pubDate>Mon, 01 Nov 2010 17:39:12 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[classic gaming]]></category>
+		<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[geek]]></category>
+		<category><![CDATA[infocom]]></category>
+		<category><![CDATA[text adventure]]></category>
+		<category><![CDATA[typewriter]]></category>
+
+		<guid isPermaLink="false">/?p=256</guid>
+		<description><![CDATA[Fans of the classic Infocom games (Zork et al) and geeks of all stripes may appreciate the efforts of Jonathan M. Guberman and his Automatypewriter. A new way to interact with fiction from Jonathan M. Guberman on Vimeo.]]></description>
+				<content:encoded><![CDATA[<p>Fans of the classic Infocom games (Zork et al) and geeks of all stripes may appreciate the efforts of Jonathan M. Guberman and his <a href="http://upnotnorth.net/projects/typewriter/">Automatypewriter</a>.<br />
+<iframe src="http://player.vimeo.com/video/16311288" width="400" height="300" frameborder="0"></iframe>
+<p><a href="http://vimeo.com/16311288">A new way to interact with fiction</a> from <a href="http://vimeo.com/jmg">Jonathan M. Guberman</a> on <a href="http://vimeo.com/">Vimeo</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/11/01/you-might-get-eaten-by-a-smith-corona/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Handheld Input With Swype</title>
+		<link>/2010/06/23/handheld-input-with-swype/</link>
+		<comments>/2010/06/23/handheld-input-with-swype/#respond</comments>
+		<pubDate>Wed, 23 Jun 2010 15:51:39 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Mobile Computing]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[handheld]]></category>
+		<category><![CDATA[input device]]></category>
+		<category><![CDATA[mobile]]></category>
+		<category><![CDATA[privacy]]></category>
+		<category><![CDATA[Swype]]></category>
+
+		<guid isPermaLink="false">/?p=217</guid>
+		<description><![CDATA[I just installed Swype on my Android phone, and it works pretty well. Fitaly was my last favorite handheld input method, but the stylus has gone the way of the 8-Track. This method is fast and intuitive; it does a good job of guessing what word you want based on your finger&#8217;s scribbling across the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img src="/wp-content/uploads/2010/06/oie_Screen_shot_2010_06_23_at_8.33.19_AM.png" alt="" title="swype logo" width="157" height="54" class="alignnone size-full wp-image-218" /><br />
+I just installed <a href="http://www.swypeinc.com/">Swype</a> on my Android phone, and it works pretty well. <a href="http://www.fitaly.com/">Fitaly</a> was my last favorite handheld input method, but the stylus has gone the way of the <a href="http://en.wikipedia.org/wiki/8-track_tape">8-Track</a>. This method is fast and intuitive; it does a good job of guessing what word you want based on your finger&#8217;s scribbling across the (slightly larger than the default Android) keyboard. It&#8217;s not perfect; sometimes your finger will be hiding the keys you want to slide over, forcing you to pause and misspell. But given how awful most handheld input options are, it&#8217;s a fine improvement.<br />
+<img src="/wp-content/uploads/2010/06/Screen-shot-2010-06-23-at-8.38.28-AM.png" alt="" title="Android warning screen" width="245" height="404" class="alignleft size-full wp-image-220" /><br />
+<a href="http://beta.swype.com/android/welcome/detailed/">This warning screen</a> is a bit unnerving, particularly considering this recent article at CNet <a href="http://news.cnet.com/8301-27080_3-20008518-245.html">Report: A fifth of Android apps expose private data</a> (via <a href="http://yro.slashdot.org/article.pl?sid=10/06/23/1429249">Slashdot</a>). So maybe I won&#8217;t use Swype to enter any passwords. But its improved functionality is mostly lost on passwords anyway.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/06/23/handheld-input-with-swype/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress 3.0</title>
+		<link>/2010/06/18/wordpress-3-0/</link>
+		<comments>/2010/06/18/wordpress-3-0/#respond</comments>
+		<pubDate>Sat, 19 Jun 2010 04:14:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Tech]]></category>
+		<category><![CDATA[Web Development]]></category>
+
+		<guid isPermaLink="false">/?p=214</guid>
+		<description><![CDATA[It&#8217;s new. It&#8217;s neat. Check it out.]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s new. It&#8217;s neat. Check it out.<br />
+<embed src="http://v.wordpress.com/wp-content/plugins/video/flvplayer.swf?ver=1.21" type="application/x-shockwave-flash" width="640" height="360" wmode="transparent" seamlesstabbing="true" allowfullscreen="true" allowscriptaccess="always" overstretch="true" flashvars="guid=BQtfIEY1&amp;width=640&amp;height=360&amp;locksize=no&amp;dynamicseek=false&amp;qc_publisherId=p-18-mFEk4J448M" title="Introducing WordPress 3.0 &quot;Thelonious&quot;"></embed></p>
+]]></content:encoded>
+			<wfw:commentRss>/2010/06/18/wordpress-3-0/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Good Games, Pay What You Want</title>
+		<link>/2010/05/07/good-games-pay-what-you-want/</link>
+		<pubDate>Fri, 07 May 2010 17:41:57 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[software]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=149</guid>
+		<description><![CDATA[http://www.wolfire.com/humble/ World of Goo alone is worth money.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.wolfire.com/humble">http://www.wolfire.com/humble/</a></p>
+<p>World of Goo alone is worth money.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Blu-ray Player Returns</title>
+		<link>/2009/12/13/blu-ray-player-returns/</link>
+		<pubDate>Sun, 13 Dec 2009 16:45:51 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Home Theater]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=54</guid>
+		<description><![CDATA[40 days later, without a single unsolicited word from Sony at any point during the repair process, the BDP-S360 has returned. Seems to be working. Maybe I&#8217;ll just hold off on firmware updates, at least until a specific need demands one.]]></description>
+				<content:encoded><![CDATA[<p>40 days later, without a single unsolicited word from Sony at any point during the repair process, the BDP-S360 has returned. Seems to be working. Maybe I&#8217;ll just hold off on firmware updates, at least until a specific need demands one.</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Sony eSupport Repair Blu-ray Player BDP-S360, Part 1</title>
+		<link>/2009/11/05/sony-esupport-repair-blu-ray-player-bdp-s360-part-1/</link>
+		<comments>/2009/11/05/sony-esupport-repair-blu-ray-player-bdp-s360-part-1/#comments</comments>
+		<pubDate>Thu, 05 Nov 2009 21:42:07 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Home Theater]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=52</guid>
+		<description><![CDATA[Shipped the self-destructed BDP-S360 back to Sony&#8217;s facility in Laredo, Texas on the 26th of October via UPS and it arrived their a few days later on the 30th. Waited a few days and heard nothing, no call, no email. Calling them (1-866-909-7669), I discover that a part necessary for the player&#8217;s repair has been [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Shipped the self-destructed BDP-S360 back to Sony&#8217;s facility in Laredo, Texas on the 26th of October via UPS and it arrived their a few days later on the 30th. </p>
+<p>Waited a few days and heard nothing, no call, no email. Calling them (1-866-909-7669), I discover that a part necessary for the player&#8217;s repair has been back-ordered, and that if I want more information (I do!) I should call the repair center directly at 1-866-357-6230.</p>
+<p>The repair center tells me that the part is not expected to arrive until November 27th, which would seem to indicate a functioning player returning to me no earlier than the beginning of December.</p>
+<p>Sony is apparently not big on customer service.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2009/11/05/sony-esupport-repair-blu-ray-player-bdp-s360-part-1/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Sony BDP-S360 Firmware Update 007 wrecked my player</title>
+		<link>/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/</link>
+		<comments>/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/#comments</comments>
+		<pubDate>Sat, 24 Oct 2009 18:40:38 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Home Theater]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=50</guid>
+		<description><![CDATA[After updating the firmware via the network connection, the Sony BDP-S360 died. It just flashes &#8220;SYS ERR&#8221; on the screen now and Sony&#8217;s eSupport says it will have to be sent in for repairs. In 7 to 10 days, not including shipping time, I may (or may not) get back a functional player. I sure [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>After updating the firmware via the network connection, the Sony BDP-S360 died. It just flashes &#8220;SYS ERR&#8221; on the screen now and Sony&#8217;s eSupport says it will have to be sent in for repairs. In 7 to 10 days, not including shipping time, I may (or may not) get back a functional player. I sure hope Sony gets this Blu-ray thing sorted out soon. <a href="http://esupport.sony.com/US/perl/swu-download.pl?upd_id=4941&amp;mdl=BDPS360">http://esupport.sony.com/US/perl/swu-download.pl?upd_id=4941&amp;mdl=BDPS360</a></p>
+<p><span style="font-size:smaller">Comments for this post have been turned off due to heavy spam.</span></p>
+]]></content:encoded>
+			<wfw:commentRss>/2009/10/24/sony-bdp-s360-firmware-update-007-wrecked-my-player/feed/</wfw:commentRss>
+		<slash:comments>30</slash:comments>
+		</item>
+		<item>
+		<title>Exploring MythTV</title>
+		<link>/2009/10/03/exploring-mythtv/</link>
+		<comments>/2009/10/03/exploring-mythtv/#respond</comments>
+		<pubDate>Sat, 03 Oct 2009 21:25:34 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Geek-centric]]></category>
+		<category><![CDATA[Home Theater]]></category>
+
+		<guid isPermaLink="false">http://seancamden.com/?p=46</guid>
+		<description><![CDATA[Installed MythDora on a box cobbled together from parts and plugged it into the new TV. Bought a cheap cable card off ebay and plugged it in. Apparently, that was pointless, since the signal coming from the cable company is encrypted. MythTV doesn&#8217;t seem to see anything. The menu is far nicer to look at [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Installed <a href="http://mythdora.com/">MythDora</a> on a box cobbled together from parts and plugged it into the new TV. Bought a cheap cable card off ebay and plugged it in. Apparently, that was pointless, since the signal coming from the cable company is encrypted. MythTV doesn&#8217;t seem to see anything. The menu is far nicer to look at and navigate than the simply awful DVR interface offered by the cable company. Now if I can just get some content onto it.</p>
+]]></content:encoded>
+			<wfw:commentRss>/2009/10/03/exploring-mythtv/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

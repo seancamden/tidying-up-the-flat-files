@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+=======
+---
+layout: default
+title:  Welcome
+---
 
-You can use the [editor on GitHub](https://github.com/seancamden/tidying-up-the-flat-files/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# {{ page.title }}
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+_Add your text here_
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+What's Markdown (`.md`)?
 
-# Header 1
-## Header 2
-### Header 3
+Markdown is markup that lets you write hypertext (HTML) documents
+in easy-to-read and easy-to-write plain text.
+No angle brackets `<></>` required for
+paragraphs, lists, blockquotes, tables, etc.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+This is a paragraph (in Markdown). Some more
+text here.
 
-**Bold** and _Italic_ and `Code` text
+This is another paragraph.
 
-[Link](url) and ![Image](src)
-```
+This is a list:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Orange
+- Apple
+- Blueberry
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/seancamden/tidying-up-the-flat-files/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+Just getting started with Markdown?
+See the [HTML <-> Markdown Quick Reference (Cheat Sheet)][quickref].
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+[quickref]: https://github.com/mundimark/quickrefs/blob/master/HTML.md

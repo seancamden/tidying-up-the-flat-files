@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ari Pulkkinen &#8211; Sean Camden</title>
+	<atom:link href="/tag/ari-pulkkinen/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>The Humble Frozenbyte Bundle</title>
+		<link>/2011/04/26/the-humble-frozenbyte-bundle/</link>
+		<comments>/2011/04/26/the-humble-frozenbyte-bundle/#respond</comments>
+		<pubDate>Tue, 26 Apr 2011 17:11:40 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[gaming]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Ari Pulkkinen]]></category>
+		<category><![CDATA[drm]]></category>
+		<category><![CDATA[drm-free]]></category>
+		<category><![CDATA[frozenbyte]]></category>
+		<category><![CDATA[games]]></category>
+		<category><![CDATA[humble bundle]]></category>
+		<category><![CDATA[music]]></category>
+
+		<guid isPermaLink="false">/?p=392</guid>
+		<description><![CDATA[The Humble Bundle returns with games from Frozenbyte, an independent game development company. I don&#8217;t actually have time to play games much these days, but I love supporting DRM-free software. For my $50 (I picked the amount!) I got not only the games themselves, which I can download from their servers as many times as [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.humblebundle.com/"><img src="/wp-content/uploads/2011/04/humble-bundle-logo.png" alt="The Humble Frozenbyte Bundle" title="humble-bundle-logo" width="625" height="84" class="alignnone size-full wp-image-395" srcset="/wp-content/uploads/2011/04/humble-bundle-logo.png 625w, /wp-content/uploads/2011/04/humble-bundle-logo-300x40.png 300w" sizes="(max-width: 625px) 100vw, 625px" /></a></p>
+<p><a href="http://www.humblebundle.com/">The Humble Bundle returns</a> with games from <a href="http://frozenbyte.com/">Frozenbyte, an independent game development company</a>.</p>
+<p>I don&#8217;t actually have time to play games much these days, but I love supporting <a href="http://www.defectivebydesign.org/what_is_drm">DRM</a>-free software. For my $50 (I picked the amount!) I got not only the games themselves, which I can download from their servers as many times as I need for whichever of three operating systems I need, but also the games&#8217; soundtracks are included as folders of MP3s. And the tracks, all written by <a href="http://www.aripulkkinen.com/">Ari Pulkkinen</a>, are quite good. </p>
+]]></content:encoded>
+			<wfw:commentRss>/2011/04/26/the-humble-frozenbyte-bundle/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

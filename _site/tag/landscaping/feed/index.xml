@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>landscaping &#8211; Sean Camden</title>
+	<atom:link href="/tag/landscaping/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Live from the Valley of No Regrets</description>
+	<lastBuildDate>Thu, 21 Jul 2016 03:20:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.7</generator>
+	<item>
+		<title>Putting a Patio in the Front Yard</title>
+		<link>/2011/07/02/putting-a-patio-in-the-front-yard/</link>
+		<comments>/2011/07/02/putting-a-patio-in-the-front-yard/#respond</comments>
+		<pubDate>Sat, 02 Jul 2011 23:35:52 +0000</pubDate>
+		<dc:creator><![CDATA[Sean]]></dc:creator>
+				<category><![CDATA[Environmental]]></category>
+		<category><![CDATA[Homestead]]></category>
+		<category><![CDATA[bermuda grass]]></category>
+		<category><![CDATA[landscaping]]></category>
+		<category><![CDATA[lawn]]></category>
+		<category><![CDATA[pavers]]></category>
+		<category><![CDATA[sketchup]]></category>
+		<category><![CDATA[stamped concrete]]></category>
+
+		<guid isPermaLink="false">/?p=399</guid>
+		<description><![CDATA[The lawn is long gone. I tried real hard, honest I did. But then the bermuda grass came, and that was that. But lawn&#8217;s are kind of ridiculous anyway; they suck up so much water. So, we&#8217;ve decided to put in a patio. We just endured our first quote from a paver salesman, and it [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><img class="alignnone size-full wp-image-401" title="our-front-yard-with-weeds" src="/wp-content/uploads/2011/07/our-front-yard-with-weeds.jpg" alt="Our front yard filled with weeds." width="625" height="469" srcset="/wp-content/uploads/2011/07/our-front-yard-with-weeds.jpg 625w, /wp-content/uploads/2011/07/our-front-yard-with-weeds-300x225.jpg 300w" sizes="(max-width: 625px) 100vw, 625px" /><br />
+The lawn is long gone. I tried real hard, honest I did. But then the <a href="http://www.ppws.vt.edu/scott/weed_id/cynda.htm">bermuda grass</a> came, and that was that. But lawn&#8217;s are kind of ridiculous anyway; they suck up so much water. So, we&#8217;ve decided to put in a patio.</p>
+<div id="attachment_402" style="width: 634px" class="wp-caption alignnone"><a href="/stuff/front-yard-2015-bricks-2c.jpg"><img class="size-full wp-image-402" title="front-yard-2015-bricks-2d" src="/wp-content/uploads/2011/07/front-yard-2015-bricks-2d.jpg" alt="The patio we hope to have for our front yard." width="624" height="468" srcset="/wp-content/uploads/2011/07/front-yard-2015-bricks-2d.jpg 624w, /wp-content/uploads/2011/07/front-yard-2015-bricks-2d-300x225.jpg 300w" sizes="(max-width: 624px) 100vw, 624px" /></a><p class="wp-caption-text">We hope it will look something like this.</p></div>
+<p>We just endured our first quote from a paver salesman, and it was pretty awful. Pushy, aggressively ingratiating, and he could not stop talking about how great his company is and how he never loses a sale. And the price: hoo boy. We weren&#8217;t expecting this to be cheap, but wow those were some big numbers. I wish he could have just emailed them to us; enduring a second visit was a chore. As his mood changed from bubbly to maudlin (&#8220;I really thought I was going to make a sale today.&#8221; he said sadly), all I could think about was getting him out of our house.</p>
+<p>We may go with stamped concrete, too. Although we haven&#8217;t gotten any quotes for that yet, we expect it to be cheaper.</p>
+<p><a href="/stuff/front-yard-2015-bricks-2.zip">Here&#8217;s the sketchup file.</a></p>
+]]></content:encoded>
+			<wfw:commentRss>/2011/07/02/putting-a-patio-in-the-front-yard/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

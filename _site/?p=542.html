@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>
+     Playing with TextBlob
+    
+  </title>
+  <meta name="description" content="Live from the Valley of No Regrets">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+
+  <body>
+    <section class="page-wrapper">
+      <p>TextBlob is a fun Python library that allows one to parse blocks of text in neat ways.</p>
+
+<p>To use it, all you need is a computer with <a href="http://www.python.org/">Python</a> on it. I’m using <a href="http://linuxmint.com/">Linux Mint</a> with Python 2.7.3. Installation of TextBlob is covered pretty well on <a href="http://textblob.readthedocs.org/en/latest/">Steve Loria’s TextBlob page</a>.</p>
+
+<p>To begin I open my Python interpreter and import TextBlob.</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; from textblob import TextBlob</code></p>
+
+<p>Then I load my text. I’m using a chunk of <a href="http://www.gutenberg.org/ebooks/28054">The Brothers Karamazov</a>.</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; with open(r"/home/sean/Documents/text-blobs/the-brothers-karamazov/brothers-044") as infile:&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;data = infile.read()&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;myblob = TextBlob(data)&lt;br /&gt;
+...&lt;br /&gt;
+</code></p>
+
+<p>Now I have a TextBlob object named “myblob” and I can do fun stuff with it. For instance, I can loop through it and pull out all the adjectives.</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if key == "JJ":&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+JJ back&lt;br /&gt;
+JJ back-way&lt;br /&gt;
+JJ black&lt;br /&gt;
+JJ certain&lt;br /&gt;
+JJ civil&lt;br /&gt;
+JJ clear&lt;br /&gt;
+--and so on...&lt;br /&gt;
+</code></p>
+
+<p>By setting up my <code class="highlighter-rouge">for</code> loop with the <code class="highlighter-rouge">sorted()</code> and <code class="highlighter-rouge">set()</code> methods, the output is alphabetized and will contain no duplicates.</p>
+
+<p>But suppose I only want to see the adjectives that are five characters long. Then I use Python’s <code class="highlighter-rouge">len()</code> method. Like so:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if key == "JJ" and len(value) == 5:&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+JJ black&lt;br /&gt;
+JJ civil&lt;br /&gt;
+JJ clear&lt;br /&gt;
+JJ equal&lt;br /&gt;
+JJ first&lt;br /&gt;
+--and so on...&lt;br /&gt;
+</code></p>
+
+<p>I can sort for verbs, too; in fact, any part of speech listed in the <a href="http://www.clips.ua.ac.be/pages/mbsp-tags">Penn Treebank II tag set</a> will work.</p>
+
+<p>The Penn Treebank code for gerunds is VBG. But sometimes I want all the words that end in “ing” even if it’s not a gerund. In that case, I use Python’s string methods instead. Like so:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if value[-3:] == "ing":&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+VBG according&lt;br /&gt;
+NN anything&lt;br /&gt;
+VBG behaving&lt;br /&gt;
+VBG bringing&lt;br /&gt;
+--and so on...&lt;br /&gt;
+</code></p>
+
+<p>Using Python’s handy string methods I can easily test for a word that begins with a particular letter, too. Here I’ll throw in the <code class="highlighter-rouge">lower()</code> method to match regardless of case:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if value[0].lower() == "a":&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+DT A&lt;br /&gt;
+IN Among&lt;br /&gt;
+NNP April&lt;br /&gt;
+IN At&lt;br /&gt;
+DT a&lt;br /&gt;
+IN about&lt;br /&gt;
+VBG according&lt;br /&gt;
+VBN accustomed&lt;br /&gt;
+--and so on...&lt;br /&gt;
+</code></p>
+
+<p>But what if I want to match all the words that start with vowels? Well, I think I’m going to need a <a href="http://www.regular-expressions.info/">regular expression</a> to do that. (I love regular expressions.)</p>
+
+<p>First I’ll import Python’s regex library and then create my regular expression.</p>
+
+<p>`»&gt; import re<br /></p>
+<blockquote>
+  <blockquote>
+    <blockquote>
+      <p>reg = re.compile(‘^[aeiou]\w*’, re.IGNORECASE)<br />
+`</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>As you can see, I’m looking for any word that begins “<code class="highlighter-rouge">^</code>” with a vowel “<code class="highlighter-rouge">[aeiou]</code>” and is followed by zero or more “<code class="highlighter-rouge">*</code>” alphanumeric characters “<code class="highlighter-rouge">\w</code>” and I want to ignore case. Then I just use another <code class="highlighter-rouge">for</code> loop, only this time with my new regex. Like so:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if reg.match(value):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+DT A&lt;br /&gt;
+IN Among&lt;br /&gt;
+NNP April&lt;br /&gt;
+IN At&lt;br /&gt;
+DT Every&lt;br /&gt;
+IN If&lt;br /&gt;
+IN In&lt;br /&gt;
+PRP It&lt;br /&gt;
+IN Of&lt;br /&gt;
+DT a&lt;br /&gt;
+IN about&lt;br /&gt;
+--and so on...&lt;br /&gt;
+</code></p>
+
+<p>All the base form verbs that start with a vowel:</p>
+
+<p><code class="highlighter-rouge">&gt;&gt;&gt; for value,key in sorted(set(myblob.tags)):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;if key == "VB" and reg.match(value):&lt;br /&gt;
+... &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;print key,value&lt;br /&gt;
+...&lt;br /&gt;
+VB act&lt;br /&gt;
+VB entertain&lt;br /&gt;
+VB estrange&lt;br /&gt;
+VB in&lt;br /&gt;
+VB into&lt;br /&gt;
+</code></p>
+
+<p>Pretty cool, right?</p>
+
+    </section>
+  </body>
+
+  <div id="footer">Hi, I'm a footer.</div>
+
+</html>
